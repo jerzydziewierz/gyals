@@ -1,0 +1,24 @@
+# Example yaml to see how to use yaml in python
+
+---
+# This is a comment
+# This is a list
+list:
+  - item1
+  - item2
+  - item3
+
+# This is a dictionary
+dict:
+  key1: value1
+  key2: value2
+  key3: value3
+
+# This is a list of dictionaries
+list_of_dict:
+  - key1: value1
+    key2: value2
+  - key1: value1
+    key2: value2
+  - key1: value1
+    key2: value2

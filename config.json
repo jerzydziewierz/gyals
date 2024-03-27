@@ -1,0 +1,25 @@
+{
+    "console-feedback-period-seconds": 3,
+    "data-folder": "data",
+    "streams":
+    [
+        {
+            "mqtt-broker-address": "192.168.1.2",
+            "mqtt-broker-port" : 1883,
+            "user": "aaa",
+            "password": "aaa",
+            "topic": "#",
+            "prefix": "aaa",
+            "suffix": "",
+            "file-rotation-time-seconds":600
+        }
+    ],
+    "log-performance": true,
+    "log-performance-stream": {
+        "topic" : "yals/performance",
+        "mqtt-broker-address": "192.168.1.2",
+        "mqtt-broker-port" : 1883,
+        "user": "aaa",
+        "password": "aaa"
+    }
+}

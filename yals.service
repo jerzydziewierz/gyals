@@ -1,0 +1,11 @@
+[Unit]
+Description=YALS log server for mqtt
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c "cd /storage3/george-yals && /storage3/george-yals/start.sh"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
